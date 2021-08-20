@@ -10,9 +10,6 @@
 .svn/
 
 
-# Secrets
-/config
-
 # IntelliJ related
 *.iml
 *.ipr

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:cicd/config_reader.dart';
 
 
@@ -50,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.display1,
+              style: Theme.of(context).textTheme.bodyText2,
             ),
             Text(
               'Revealed secret:\n${ConfigReader.getSecretKey()}',
