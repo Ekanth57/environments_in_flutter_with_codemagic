@@ -20,6 +20,9 @@ artifacts:
   objects:
     location: 'https://console.cloud.google.com/artifacts/docker/parkon-300905/asia/cicd?project=parkon-300905/'
     paths: ['*.apk']
+    
+    
+    
 
 #   # upload apk to google play store with Fastlane
 #   - name: 'gcr.io/$PROJECT_ID/flutter'
