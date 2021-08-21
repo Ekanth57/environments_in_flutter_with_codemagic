@@ -11,6 +11,15 @@ steps:
   - name: 'gcr.io/$PROJECT_ID/flutter'
     entrypoint: '/bin/bash'
     args: ['build.sh', '${_REPO_NAME}']
+    
+    https://console.cloud.google.com/artifacts/docker/parkon-300905/asia/cicd?project=parkon-300905
+    
+    
+    # Push the APK file from vol1 to your GCS Bucket.
+artifacts:
+  objects:
+    location: 'https://console.cloud.google.com/artifacts/docker/parkon-300905/asia/cicd?project=parkon-300905/'
+    paths: ['*.apk']
 
 #   # upload apk to google play store with Fastlane
 #   - name: 'gcr.io/$PROJECT_ID/flutter'
