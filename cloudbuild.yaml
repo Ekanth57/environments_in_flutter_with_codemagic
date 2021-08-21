@@ -12,7 +12,7 @@ steps:
     entrypoint: '/bin/bash'
     args: ['build.sh', '${_REPO_NAME}']
 
-  # upload apk to google play store with Fastlane
-  - name: 'gcr.io/$PROJECT_ID/flutter'
-    args: ['supply', '--package_name','${_ANDROID_PACKAGE_NAME}', '--track', '${_ANDROID_RELEASE_CHANNEL}', '--json_key_data', '${_GOOGLE_PLAY_UPLOAD_KEY_JSON}', '--apk', '/workspace/${_REPO_NAME}/build/app/outputs/apk/release/app-release.apk']
-timeout: 1200s
+#   # upload apk to google play store with Fastlane
+#   - name: 'gcr.io/$PROJECT_ID/flutter'
+#     args: ['supply', '--package_name','${_ANDROID_PACKAGE_NAME}', '--track', '${_ANDROID_RELEASE_CHANNEL}', '--json_key_data', '${_GOOGLE_PLAY_UPLOAD_KEY_JSON}', '--apk', '/workspace/${_REPO_NAME}/build/app/outputs/apk/release/app-release.apk']
+# timeout: 1200s
