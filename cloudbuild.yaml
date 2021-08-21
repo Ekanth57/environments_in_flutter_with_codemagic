@@ -16,7 +16,7 @@ steps:
     # Push the APK file from vol1 to your GCS Bucket.
 artifacts:
   objects:
-    location: 'gs://https://console.cloud.google.com/artifacts/docker/parkon-300905/asia/cicd?project=parkon-300905/'
+    location: 'gs://console.cloud.google.com/artifacts/docker/parkon-300905/asia/cicd?project=parkon-300905/cicd/'
     paths: ['*.apk']
     
     
